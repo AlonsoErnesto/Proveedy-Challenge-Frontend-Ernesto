@@ -1,0 +1,38 @@
+/* TOP-NAV */
+.nav-profile {
+   position: relative;
+   width: 95%;
+   height: 60px;
+
+   border-radius: 10px;
+   margin: 10px;
+   margin-left: 4%;
+   display: flex;
+   justify-content: end;
+   box-shadow: 1px 5px 10px rgb(187, 187, 187);
+}
+
+.items {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 40px;
+}
+
+.items > * {
+   width: 50px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.profile {
+   background: #e7e7ff ;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
